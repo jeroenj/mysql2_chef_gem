@@ -14,4 +14,4 @@ Chef::Platform.set platform: :scientific, version: '< 7.0', resource: :mysql2_ch
 Chef::Platform.set platform: :scientific, version: '>= 7.0', resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
 Chef::Platform.set platform: :smartos, resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
 Chef::Platform.set platform: :suse, resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
-Chef::Platform.set platform: :ubuntu, resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+Chef::Platform.set platform: :ubuntu, resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mariadb
